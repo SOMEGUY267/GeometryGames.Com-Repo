@@ -11,8 +11,8 @@ const Footer: React.FC = () => {
             <Link to="/" className="flex items-center space-x-2 mb-4">
               <Cube3d className="h-6 w-6 text-accent" />
               <span className="text-lg font-orbitron font-bold">
-                <span className="text-accent">Geometry</span>
-                <span className="text-accent-alt">Games</span>
+                <span className="text-accent">superhardmath</span>
+                <span className="text-accent-alt">questions.io</span>
               </span>
             </Link>
             <p className="text-text-secondary mb-4">
@@ -84,7 +84,7 @@ const Footer: React.FC = () => {
         <div className="border-t border-gray-700 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-text-secondary text-sm">
-              © {new Date().getFullYear()} GeometryGames.com. All rights reserved.
+              © {new Date().getFullYear()} superhardmathquestions.io. All rights reserved.
             </p>
             <p className="text-text-secondary text-sm mt-4 md:mt-0 flex items-center">
               Made with <Heart className="h-4 w-4 text-accent-alt mx-1" /> for Geometry Dash fans

@@ -32,10 +32,10 @@ const GamePage: React.FC = () => {
     window.scrollTo(0, 0);
     
     // Update page title
-    document.title = game ? `${game.name} - GeometryGames.com` : 'GeometryGames.com';
+    document.title = game ? `${game.name} - superhardmathquestions.io` : 'superhardmathquestions.io';
     
     return () => {
-      document.title = 'GeometryGames.com - Play Geometry Dash Online';
+      document.title = 'superhardmathquestions.io - Play Geometry Dash Online';
     };
   }, [game, gameId, navigate]);
   
@@ -47,7 +47,7 @@ const GamePage: React.FC = () => {
     if (navigator.share) {
       navigator.share({
         title: game.name,
-        text: `Play ${game.name} on GeometryGames.com!`,
+        text: `Play ${game.name} on superhardmathquestions.io!`,
         url: window.location.href,
       });
     } else {

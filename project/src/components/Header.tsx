@@ -36,8 +36,8 @@ const Header: React.FC = () => {
               className="h-8 w-8 text-accent transition-transform duration-500 group-hover:rotate-[360deg]" 
             />
             <span className="text-xl md:text-2xl font-orbitron font-bold">
-              <span className="text-accent">Geometry</span>
-              <span className="text-accent-alt">Games</span>
+              <span className="text-accent">superhardmath</span>
+              <span className="text-accent-alt">questions.io</span>
             </span>
           </Link>
 
